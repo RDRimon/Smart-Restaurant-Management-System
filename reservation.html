@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Reservation--Smart Restaurant Management System</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"> Smart Restaurant Management System </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#reservationNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="reservationNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="reservation.html">Reservation</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+                </li>
+                </ul>
+                </div>
+                </div>
+                </nav>
+        <section class="image-page ">
+            <img src="image/reservation.jpg"alt="Restaurant Reservation">
+            <div class="page-overlay"></div>
+            <div class="glass-card reservation-content">
+                <div class="page-icon">🍽️</div>
+                <h1>Smart<span> Restaurant</span></h1>
+                <p class="page-subtitle">Reserve your table</p>
+            <h2>Table Reservation </h2>
+            <p>Book your table and enjoy a wonderful dining experience.</p>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                <label class="form-label">👤 Full Name </label>
+                <input type="text" class="form-control" placeholder="Enter your Name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <label class="form-label">📩 Email </label>
+                <input type="email" class="form-control" placeholder="Enter your Email" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <label class="form-label">📞 Phone </label>
+                <input type="tel" class="form-control" placeholder="Enter Phone Number" required>
+                </div>
+                </div>
+                <label class="form-label">👥 Number of Guests </label>
+                <select class="form-select mb-3">
+                    <option>Select Guests</option>
+                    <option>1 Guests </option>
+                    <option>2 Guests </option>
+                    <option>3 Guests </option>
+                    <option>4 Guests </option>
+                    <option>5 Guests </option>
+                    <option>6 Guests </option>
+                    <option>7+ Guests </option>
+                </select>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                <label class="form-label">📅 Date</label>
+                <input type="date" class="form-control" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                <label class="form-label">⏰ Time</label>
+                <input type="time" class="form-control" required>
+                </div>
+                </div>
+                <label class="form-label">📝 Special Request</label>
+                <textarea class="form-control mb-3" placeholder="Any Special request?"></textarea>
+                <button type="submit" class="btn btn-warning w-100 fw-bold">Reserve Table</button>
+            </form>
+            <a href="index.html" class="back-home">Back to Home </a>
+            </div>
+        </section>
+        <footer class="bg-dark text-white text-center py-4">
+             <p class="mb-0"> &copy; Smart Restaurant Management System. All Rights Reserved.</p>
+                           <p class="mb-0">Developed by Rimon Dey </p>
+        </footer>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwxHj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        </body>
+        </html>

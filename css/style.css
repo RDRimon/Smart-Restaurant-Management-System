@@ -1,0 +1,199 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*======= Navbar =====*/
+navbar-brand{
+    letter-spacing: 0.5px;
+}
+nav-link{
+    transition: 0.3s;
+}
+nav-link:hover{
+    color:#ff9d00 !important;
+}
+.navbar .navbar-brand {
+    color:white !important;
+}
+.navbar .nav-link {
+    color: white !important;
+}
+.navbar .nav-link:hover {
+    color:#ffc107 !important;
+}
+/*=======Home hero========*/
+.hero{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+}
+.hero::after{
+    content: " ";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+    color: white;
+    width: 90%;
+    max-width: 800px;
+}
+.hero-content h2{
+    font-size: 45px;
+}
+.hero-content p{
+    font-size: 20px;
+}
+/*======= Food Menu ======*/
+.food-card .card-img-top {
+    height: 190px;
+    object-fit: cover;
+}
+
+/*======= image page ======*/
+.image-page{
+    min-height: calc(100vh-56px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15px;
+}
+.image-page > img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*=====dark overlay====*/
+.page-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.58);
+    z-index: 1;
+}
+.glass-card{
+    position: relative;
+    z-index: 2;
+    width: 450px;
+    max-width: 100%;
+    padding: 40px;
+    background: rgba(20,15,10,0.88);
+    border: 1px solid rgba(255,180,60,0.7);
+    border-radius: 22px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.55);
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+/*======icon====*/
+.page-icon{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.glass-card h1{
+    font-size: 30px;
+    color: white;
+}
+.glass-card h1 span{
+    color: #ff9d00;
+}
+.page-subtitle{
+    color: #ddd;
+}
+.glass-card h2{
+    color: white;
+}
+.glass-card > p{
+    color: #ddd;
+}
+/*====form label===*/
+.glass-card .form-label{
+    font-weight: bold;
+    color: white;
+}
+/*=====contact=====*/
+.contact-info > div > div {
+    background: rgba(255, 255,255,0.08);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+.contact-info h3{
+    color: #ff9d00;
+    font-size: 16px;
+}
+.contact-info p{
+    color: #ddd;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+/*====about====*/
+.about-features> div > div {
+    background: rgba(255,255,255,0.08);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+.about-features h3{
+    color: #ff9d00;
+    font-size: 16px;
+}
+.about-features p{
+    color: #ddd;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+/*=====back home=====*/
+.back-home{
+    display: inline-block;
+    margin-top: 18px;
+    color: #ff9d00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.back-home:hover{
+    text-decoration: underline;
+    color: #ffb52e;
+}
+
+/*======= mobile ======*/
+@media(max-width: 600px){
+    .hero{
+        height: 500px;
+    }
+    .hero-content h2{
+        font-size: 30px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .glass-card{
+        width: 92%;
+        padding: 30px 22px;
+        border-radius: 18px;
+    }
+    .glass-card h1{
+        font-size: 25px;
+    }
+    .glass-card h2{
+        font-size: 27px;
+    }
+}
