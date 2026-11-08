@@ -4,53 +4,77 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>About--Smart Restaurant Management System</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-         <header>
-            <h1> Smart Restaurant Management System </h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="menu.html">Menu</a>
-                <a href="reservation.html">Reservation</a>
-                <a href="contact.html">Contact</a>
-                <a href="login.html">Login</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html">Smart Restaurant</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#aboutNav">
+                        <span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="aboutNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a></li>
+                <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item">
+                <a class="nav-link" href="reservation.html">Reservation</a></li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item">
+                <a class="btn btn-warning ms-lg-2" href="login.html">Login</a></li>
+                </ul>
+                </div>
+                </div>
                 
             </nav>
-        </header>
         <section class="image-page">
-            <img src="image/restaurant.jpg" alt="Our Restaurant">
+            <img src="image/restaurant.jpg" alt="About Restaurant">
             <div class="page-overlay"></div>
             <div class="glass-card about-content">
                 <div class="page-icon">🍽️</div>
                 <h1>Smart<span> Restaurant</span></h1>
-                <p class="page-subtitle">Management System</p>
-            <h2>About Our Restaurant</h2>
+                <p class="page-subtitle">About Our Restaurant</p>
             <p> Welcome to our Smart Restaurant Management System .
                  Our restaurant provides delicious food, quality service,
                 and a comfortable dining experience .</p>
                 <p> To provide quality food and excellent customer service through a simple and modern restaurant management system .</p>
-                <div class="about-features">
-                    <div>
+                <div class=" row g-3 about-features">
+                    <div class="col-md-4">
+                        <div>
                 <h3>🍴 Delicious Food</h3>
                 <p>Frish & Healthy Food </p>
                 </div>
-                <div>
+                </div>
+                <div class="col-md-4">
+                    <div>
                 <h3>👨‍🍳 Professional Chefs</h3>
                 <p>Experienced chefs serving quality food. </p>
                 </div>
-                <div>
+                </div>
+                <div class="col-md-4">
+                    <div>
                     <h3>Excellent Service</h3>
                     <p>Friendly service for a comfortable experience.</p>
                     </div>
                 </div>
+                </div>
                 <a href="index.html" class="back-home">Back to Home</a>
                 </div>
         </section>
-        <footer>
-            <p> &copy; Smart Restaurant Management System. All Rights Reserved.</p>
-                            <p>Developed by Rimon Dey </p>
+        <footer class="bg-dark text-white text-center py-4">
+            <p class="mb-0"> &copy; Smart Restaurant Management System. All Rights Reserved.</p>
+                            <p class="mb-0">Developed by Rimon Dey </p>
         </footer>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwxHj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
         </body>
         </html>
